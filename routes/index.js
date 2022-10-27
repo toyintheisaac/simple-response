@@ -5,7 +5,7 @@ const data = {
   "slackUsername": "IsaacToyin", 
   "backend": true, 
   "age": 30, 
-  "bio": "Continue learning" 
+  "bio": "I am a backend engineer who is on a mission to develop scalable software" 
 }
 /* GET home page. */
 router.get('/', function(req, res, next) {

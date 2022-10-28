@@ -9,7 +9,7 @@ const data = {
 }
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.status(201).json(data);
+  res.status(200).send(data);
 });
 
 module.exports = router;
